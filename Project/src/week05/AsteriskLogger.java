@@ -30,10 +30,17 @@ public class AsteriskLogger implements Logger {
     printAsterisks(length);
   }
   
+  /*
+   * prints the asterisk border
+   */
   private static void printAsterisks(int length) {
+    
+    // prints same number of asterisks as length of string in calling method
     for (int i = 0; i <= length; i++) {
       System.out.print("*");
     }
+    
+    // print new line for formatting purposes
     System.out.println();
   }
   
